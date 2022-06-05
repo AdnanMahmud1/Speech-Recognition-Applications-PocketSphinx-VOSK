@@ -1,0 +1,8 @@
+#JSGF V1.0 UTF-8 en;
+grammar g;
+
+public <greet> = start <name>;
+<name> = (/10/ mouse | /3/ paint | /3/ browser | /2/ type);
+public <general> = /8/ menu | /5/ click  | /3/ enter | /1/ exit program | /2/ close window | /3/ tab | /20/ <greet>;
+
+

@@ -1,0 +1,12 @@
+#JSGF V1.0 UTF-8 en;
+grammar g;
+
+public <mainmouse> = <movemnet> | [<mouseFunc>];
+<movemnet> = (/5/ scroll | /20/ move) (up | down | left | right) ;
+<mouseFunc> = (/8/ show menu | /5/ click | /10/ enter | /7/ type | /6/ tab | /1/ undo | /1/ exit program);
+
+
+
+
+
+
